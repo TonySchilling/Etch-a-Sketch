@@ -8,6 +8,11 @@ body {
 
 }
 
+p {
+    font-weight: bold;
+    color: white;
+}
+
 strong {
     background-image: linear-gradient(to right, #877800, #fcfca5);
     -webkit-background-clip: text;
@@ -24,7 +29,10 @@ strong {
 
 
 .upper-ribbon {
-    background-color: rgb(154, 0, 0);
+    /* background-color: rgb(154, 0, 0); */
+    background-image: linear-gradient(to right, #750101, #c40000);
+
+
     color: aliceblue;
     text-align: center;
     height: 12vh;
@@ -46,10 +54,11 @@ strong {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: rgb(154, 0, 0);
+    /* background-color: rgb(154, 0, 0); */
+    background-image: linear-gradient(to right, #750101, #c40000);
     height: 70vh;
     width: 20vw;
-    border: 3px solid #fcfcfc;
+    border: 2px solid #fcfcfc;
     border-radius: 10px;
     margin-left: 2vw;
     margin-top: 2vw;
@@ -60,10 +69,11 @@ strong {
     justify-content: center;
     align-items: center;
     flex: 1;
-    background-color: rgb(154, 0, 0);
+    /* background-color: rgb(154, 0, 0); */
+    background-image: linear-gradient(to right, #750101, #c40000);
     height: 70vh;
     width: 60vw;
-    border: 3px solid #fcfcfc;
+    border: 2px solid #fcfcfc;
     border-radius: 10px;
     margin-left: 2vw;
     margin-top: 2vw;
@@ -72,7 +82,7 @@ strong {
 .canvas {
     display: flex;
     flex-direction: column;
-    background-color: #b0b0b0;
+    background-color: #999999;
     border: 2px solid #2d2d2d;
     border-radius: 10px;
     height: 60vh;
