@@ -1,0 +1,104 @@
+body {
+    background-color: #474747;
+}
+
+@font-face {
+    font-family: 'Rondo';
+    src: url('./rsrcs/Rondo.ttf') format('truetype');
+
+}
+
+strong {
+    background-image: linear-gradient(to right, #877800, #fcfca5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgb(36, 32, 5);
+    /* text-stroke: .5px white; */
+    
+    /* color: rgb(160, 143, 9); */
+    font-size: 9vh;
+    text-align: center;
+    font-family: 'Rondo';
+    font-weight: bold;
+}
+
+
+.upper-ribbon {
+    background-color: rgb(154, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    height: 12vh;
+    /* padding: 55px; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.app-container {
+    display: grid;
+    grid-gap: 2vw;
+    grid-template-columns: 20vw 60vw;
+    align-items: center;
+
+}
+
+.side-panel {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: rgb(154, 0, 0);
+    height: 70vh;
+    width: 20vw;
+    border: 3px solid #fcfcfc;
+    border-radius: 10px;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+.etch-a-sketch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: rgb(154, 0, 0);
+    height: 70vh;
+    width: 60vw;
+    border: 3px solid #fcfcfc;
+    border-radius: 10px;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+.canvas {
+    display: flex;
+    flex-direction: column;
+    background-color: #b0b0b0;
+    border: 2px solid #2d2d2d;
+    border-radius: 10px;
+    height: 60vh;
+    width: 50vw;
+    margin: 2vh;
+    
+
+}
+
+.pixel-row {
+    display: flex;
+}
+
+
+.pixel {
+
+    /* background-color: #391414; */
+    /* border: .1px solid #000000; */
+    border-radius: 5px;
+}
+
+.settings-section {
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    gap: 20px;
+    margin-left: 10px;
+    text-align: left;
+}

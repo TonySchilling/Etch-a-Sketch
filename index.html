@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div class="upper-ribbon">
+        <strong>Etcha-A-Sketch</strong>
+    </div>
+
+
+    <div class="app-container">
+        <div class="side-panel">
+            <div class="settings-section">
+                <input type="color" id="colorPicker">
+                <p>Draw Color</p>
+            </div>
+
+            <div class="settings-section">
+                <input type="color" id="backgroundColor">
+                <p>Background Color</p>
+            </div>
+
+            <div class="settings-section">
+                <input type="range" id="pixelSizeSlider" min="10" max="100" value="50">
+                <p>Pixel Size</p>
+            </div>
+            
+            <!-- <button onclick="openColorPicker()">Select Color</button> -->
+        
+        </div>
+    
+        <div class="etch-a-sketch">
+            <div class="canvas" id="canvas">
+                <!-- <div class="pixel-row">
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                </div>
+                <div class="pixel-row">
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                </div> -->
+                
+            </div>
+    
+        </div>
+
+
+    </div>
+    
+
+
+    
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
